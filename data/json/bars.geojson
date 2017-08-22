@@ -8,6 +8,7 @@
        "coordinates":  [ -118.323968,34.100256 ]
     },
     "properties": {
+    "icon": "bar",
     "attraction":"Davey Wayne�s",
     "attraction_type":"Bar (Drinks)",
     "address":"1611 N El Centro Ave, Los Angeles, CA 90028",
@@ -21,6 +22,7 @@
        "coordinates":  [ -118.33253,34.10232 ]
     },
     "properties": {
+    "icon": "bar",
     "attraction":"No Vacancy�",
     "attraction_type":"Bar (Drinks)",
     "address":"1727 N Hudson Ave, Los Angeles, CA 90028",
@@ -34,6 +36,7 @@
        "coordinates":  [ -118.237693,34.04627 ]
     },
     "properties": {
+    "icon": "bar",
     "attraction":"Angel City Brewery",
     "attraction_type":"Bar (Drinks)",
     "address":"216 Alameda St, Los Angeles, CA 90012",
@@ -60,6 +63,7 @@
        "coordinates":  [ -118.391134,34.14326 ]
     },
     "properties": {
+    "icon": "bar",
     "attraction":"Black Market Liquor Bar",
     "attraction_type":"Bar (Drinks)",
     "address":"11915 Ventura Blvd, Studio City, CA 91604",
@@ -73,6 +77,7 @@
        "coordinates":  [ -118.583328,34.039291 ]
     },
     "properties": {
+    "icon": "bar",
     "attraction":"Rosenthal Wine Bar & Patio",
     "attraction_type":"Bar (Drinks)",
     "address":"18741 Coast Hwy, Malibu, CA 90265",
@@ -86,6 +91,7 @@
        "coordinates":  [ -118.268299,34.08989 ]
     },
     "properties": {
+    "icon": "bar",
     "attraction":"The Satellite",
     "attraction_type":"Bar (Drinks)",
     "address":"1717 Silver Lake Blvd, Los Angeles, CA 90026",
