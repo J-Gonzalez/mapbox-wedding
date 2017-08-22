@@ -1,0 +1,96 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.323968,34.100256 ]
+    },
+    "properties": {
+    "attraction":"Davey Wayne�s",
+    "attraction_type":"Bar (Drinks)",
+    "address":"1611 N El Centro Ave, Los Angeles, CA 90028",
+    "Description":"A 70�s-themed bar with outdoor seating, fun d�cor, and the occasional live entertainment. (Pro tip: Arrive before 9 pm to avoid the line)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.33253,34.10232 ]
+    },
+    "properties": {
+    "attraction":"No Vacancy�",
+    "attraction_type":"Bar (Drinks)",
+    "address":"1727 N Hudson Ave, Los Angeles, CA 90028",
+    "Description":"A unique speak-easy type bar. No Googling before you go!"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.237693,34.04627 ]
+    },
+    "properties": {
+    "attraction":"Angel City Brewery",
+    "attraction_type":"Bar (Drinks)",
+    "address":"216 Alameda St, Los Angeles, CA 90012",
+    "Description":"Large brewery with great selection of beers, food trucks, games, and an open lay-out. Walk around the Arts District or to nearby Little Tokyo for great art and shopping."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.23526,34.044518 ]
+    },
+    "properties": {
+    "attraction":"Arts District Brewing Co.�",
+    "attraction_type":"Bar (Drinks)",
+    "address":"828 Traction Ave, Los Angeles, CA 90013",
+    "Description":"Fun brewery with lots of beers to choose from, plus darts and Skeeball."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.391134,34.14326 ]
+    },
+    "properties": {
+    "attraction":"Black Market Liquor Bar",
+    "attraction_type":"Bar (Drinks)",
+    "address":"11915 Ventura Blvd, Studio City, CA 91604",
+    "Description":"Popular bar for delicious specialty cocktails and shareable plates."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.583328,34.039291 ]
+    },
+    "properties": {
+    "attraction":"Rosenthal Wine Bar & Patio",
+    "attraction_type":"Bar (Drinks)",
+    "address":"18741 Coast Hwy, Malibu, CA 90265",
+    "Description":"Winery located right on Highway 1 (Pacific Coast Highway) with food trucks, live music, and cozy outdoor seating."
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -118.268299,34.08989 ]
+    },
+    "properties": {
+    "attraction":"The Satellite",
+    "attraction_type":"Bar (Drinks)",
+    "address":"1717 Silver Lake Blvd, Los Angeles, CA 90026",
+    "Description":"Hipster hotspot for drinks and dancing on Saturday nights. Free before 10pm and only $5 after 10pm!"
+    }
+  }
+]
+}
