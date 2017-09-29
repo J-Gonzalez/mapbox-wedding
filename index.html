@@ -5,34 +5,341 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.min.js'></script>
+	<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.1.1/mapbox-gl-geocoder.css' type='text/css' />
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <style>
         body { margin:0; padding:0; }
+        .text-align-center {
+		    text-align: center;
+		}
         #map { position:absolute; top:0; bottom:0; width:100%; }
+        #navBar{position: absolute; bottom:0; right:0;}
+        #menu {
+            background: #fff;
+            position: absolute;
+            z-index: 1;
+            top: 10px;
+            right: 10px;
+            border-radius: 3px;
+            width: 120px;
+            border: 1px solid rgba(0,0,0,0.4);
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        #menu a {
+            font-size: 13px;
+            color: #404040;
+            display: block;
+            margin: 0;
+            padding: 0;
+            padding: 10px;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(0,0,0,0.25);
+            text-align: center;
+        }
+
+        #menu a:last-child {
+            border: none;
+        }
+
+        #menu a:hover {
+            background-color: #f8f8f8;
+            color: #404040;
+        }
+
+        #menu a.active {
+            background-color: #3887be;
+            color: #ffffff;
+        }
+
+        #menu a.active:hover {
+            background: #3074a4;
+        }
     </style>
 </head>
 <body>
-
+<nav id="menu"></nav>
 <div id='map'></div>
 <script>
+
+
+
 mapboxgl.accessToken = 'pk.eyJ1IjoiamdvbnphbGV6NzIyIiwiYSI6ImNqNjhjdWQxdDBmYzczM29sMnlua3NsNjUifQ.bhQsYftgQ-V93z-83mLd5A';
 var map = new mapboxgl.Map({
     container: 'map', // container id
-    style: 'mapbox://styles/jgonzalez722/cj68mlni61ims2qpncxo55ncy', // stylesheet location
+    style: 'mapbox://styles/jgonzalez722/cj69pzonl2iob2sldr3tfv7xi', // stylesheet location
     center: [-118.563762, 34.073634], // starting position [lng, lat]
     zoom: 10 // starting zoom
 });
 
+var circleRadius = 8.75;
 
-// map.on('load', function () {
-//     // Add a layer showing the places.
-//     map.addLayer({
-//         "id": "places",
-//         "type": "symbol",
-//         "source": {
+var linearOffset = Math.round(Math.sqrt(0.5 * Math.pow(circleRadius, 2)));
 
+map.on('load', function () {
+	// Bars
+    map.addLayer({
+        "id": "Bars",
+        "type": "symbol",
+        "source": {
+            "type": "geojson",
+            "data": "https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/bars.geojson"
+            // "data": loadJson("https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/bars.geojson")
+        },
+        "layout":  {
+            "icon-image": "{icon}-15",
+            "icon-allow-overlap": true
+            }
+         }
+    );
+    // Hotels
+	map.addLayer({
+	        "id": "Hotels",
+	        "type": "symbol",
+	        "source": {
+	            "type": "geojson",
+	            "data": "https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/hotels.geojson"
+	            // "data": loadJson("https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/bars.geojson")
+	        },
+	        "layout":  {
+	            "icon-image": "suitcase-15",
+	            "icon-allow-overlap": true
+	            }
+	         }
+	);
+
+	// Activities
+	map.addLayer({
+	        "id": "Activities",
+	        "type": "symbol",
+	        "source": {
+	            "type": "geojson",
+	            "data": "https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/activities.geojson"
+	            // "data": loadJson("https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/bars.geojson")
+	        },
+	        "layout":  {
+	            "icon-image": "attraction-15",
+	            "icon-allow-overlap": true
+	            }
+	         }
+	);
+
+	// Restaurants
+	map.addLayer({
+	        "id": "Restaurants",
+	        "type": "symbol",
+	        "source": {
+	            "type": "geojson",
+	            "data": "https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/restaurants.geojson"
+	            // "data": loadJson("https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/bars.geojson")
+	        },
+	        "layout":  {
+	            "icon-image": "restaurant-15",
+	            "icon-allow-overlap": true
+	            }
+	         }
+	);
+
+
+    map.on('click', 'Bars', function (e) {
+
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.attraction + "</b>" + "<br />" + e.features[0].properties.attraction_type + "<br />" +e.features[0].properties.Description + "</center>")
+            .addTo(map);
+    });
+
+    map.on('click', 'Hotels', function (e) {
+
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + e.features[0].properties.Description + "</center>")
+            .addTo(map);
+    });
+   
+    map.on('click', 'Activities', function (e) {
+
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.attraction + "</b>" + "<br />" + e.features[0].properties.attraction_type + "<br />" +e.features[0].properties.Description + "</center>")
+            .addTo(map);
+    });
+
+    map.on('click', 'Restaurants', function (e) {
+
+        new mapboxgl.Popup({anchor: 'bottom-left',
+        					offset: [linearOffset, -linearOffset]})
+            .setLngLat(e.features[0].geometry.coordinates)
+            .setHTML("<center>" + "<b>" + e.features[0].properties.attraction + "</b>" + "<br />" + e.features[0].properties.attraction_type + "<br />" +e.features[0].properties.Description + "</center>")
+            .addTo(map);
+    });
+
+
+  
+});
+
+
+map.on('click', 'Hotels', function (e) {
+        map.flyTo({center: e.features[0].geometry.coordinates});
+    });
+
+map.on('click', 'Bars', function (e) {
+        map.flyTo({center: e.features[0].geometry.coordinates});
+    });
+map.on('click', 'Activities', function (e) {
+        map.flyTo({center: e.features[0].geometry.coordinates});
+    });
+map.on('click', 'Restaurants', function (e) {
+        map.flyTo({center: e.features[0].geometry.coordinates});
+    });
+
+
+
+
+
+var toggleableLayerIds = [ 'Bars', 'Hotels', 'Restaurants', 'Activities' ];
+
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    link.className = 'active';
+    link.textContent = id;
+
+    link.onclick = function (e) {
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+        }
+    };
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
+
+
+map.addControl(new mapboxgl.NavigationControl(), 'bottom-left');
+map.addControl(new MapboxGeocoder({accessToken: mapboxgl.accessToken}), 'top-left');
 
 
 </script>
 
 </body>
 </html>
+
+
+<!-- 
+    // map.addLayer({
+    //     "id": "air-bnb",
+    //     "type": "fill",
+    //     "source": "jgonzalez722.cj69p9p2q0tgn33mz5480t2h5-3pjov",
+    //     "paint": {
+    //         "fill-color": "#888888",
+    //         "fill-opacity": 0.4
+    //     },
+    //     "filter": ["==", "$type", "Polygon"]
+    // });
+
+
+
+
+
+
+function loadJson(url){
+    // Returns JSON object from URL
+    var json = null;
+    $.ajax({
+        'async': false,
+        'global': false,
+        'url': url,
+        'dataType': "json",
+        'success': function (data) {
+            json = data;
+        }
+    });
+    return json;
+
+
+
+
+
+
+
+
+
+    // Add a layer showing the places.
+    // map.addLayer({
+    //     "id": "hotels",
+    //     "type": "symbol",
+    //     "source": {
+    //         "type": "geojson",
+    //         "data": "https://raw.githubusercontent.com/J-Gonzalez/mapbox-wedding/master/data/json/hotels.geojson"
+    //     },  
+    //     "layout": {
+    //         "icon-image": "{icon}-15",
+    //         // "icon-halo-color": "rgb(160,82,45)",
+    //         "text-field": "{description}",
+    //         "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+    //         "text-offset": [0, 0.6],
+    //         "text-anchor": "top"
+    //     }
+    // }); 
+
+
+
+
+
+
+
+    // // Center the map on the coordinates of any clicked symbol from the 'symbols' layer.
+    // map.on('click', 'hotels', function (e) {
+    //     map.flyTo({center: e.features[0].geometry.coordinates});
+    //     console.log("yell");
+    // }); -->
+
+<!--     // var toggleableLayerIds = [ 'hotels'];
+
+// for (var i = 0; i < toggleableLayerIds.length; i++) {
+//     var id = toggleableLayerIds[i];
+
+//     var link = document.createElement('a');
+//     link.href = '#';
+//     link.className = 'active';
+//     link.textContent = id;
+
+//     link.onclick = function (e) {
+//         var clickedLayer = this.textContent;
+//         e.preventDefault();
+//         e.stopPropagation();
+
+//         var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+//         if (visibility === 'visible') {
+//             map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+//             this.className = '';
+//         } else {
+//             this.className = 'active';
+//             map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+//         }
+//     };
+
+//     var layers = document.getElementById('menu');
+//     layers.appendChild(link);
+// } -->
