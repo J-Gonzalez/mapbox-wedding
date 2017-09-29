@@ -21,7 +21,7 @@
        "coordinates":  [ -118.300318,34.118434 ]
     },
     "properties": {
-    "attraction":"Griffith Park/Observatory�",
+    "attraction":"Griffith Park/Observatory",
     "attraction_type":"Activity",
     "address":"2800 E Observatory Rd, Los Angeles, CA 90027",
     "Description":"Quintessential LA sight-seeing spot with free admission, planetarium shows, other science exhibits, and panoramic views of Los Angeles. Go during the week for less crowds and right before sunset for the best photo opportunities!�Closed on Mondays."
@@ -47,10 +47,10 @@
        "coordinates":  [ -118.474106,34.077965 ]
     },
     "properties": {
-    "attraction":"Getty Center�",
+    "attraction":"Getty Center",
     "attraction_type":"Activity",
     "address":"1200 Getty Center Dr, Los Angeles, CA 90049",
-    "Description":"Large collection of art, but worth the trip even if you�re not an art-lover because of the sprawling grounds/gardens, stunning architecture, and amazing views of LA. Free admission (besides parking). Closed on Mondays."
+    "Description":"Large collection of art, but worth the trip even if you're not an art-lover because of the sprawling grounds/gardens, stunning architecture, and amazing views of LA. Free admission (besides parking). Closed on Mondays."
     }
   },
   {
@@ -89,7 +89,7 @@
     "attraction":"Santa Monica Pier",
     "attraction_type":"Activity",
     "address":"200 Santa Monica Pier A, Santa Monica, CA 90401",
-    "Description":"Famous LA landmark � a must-see for first-time visitors to Los Angeles!"
+    "Description":"Famous LA landmark is a must-see for first-time visitors to Los Angeles!"
     }
   },
   {
@@ -102,7 +102,7 @@
     "attraction":"Universal Studios/City Walk",
     "attraction_type":"Activity",
     "address":"100 Universal City Plaza, Universal City, CA 91608",
-    "Description":"One of our favorite places in LA! The amusement park has rides and shows for the whole family � our favorites are Water World, the Studio Tour, The Mummy, and the Wizarding World of Harry Potter. Lots of shops and restaurants at City Walk if you�d rather save some money and not visit the park itself. (Pro tip: Save money on parking by parking at North Hollywood train station and riding one stop to Universal City)"
+    "Description":"One of our favorite places in LA! The amusement park has rides and shows for the whole family! our favorites are Water World, the Studio Tour, The Mummy, and the Wizarding World of Harry Potter. Lots of shops and restaurants at City Walk if you�d rather save some money and not visit the park itself. (Pro tip: Save money on parking by parking at North Hollywood train station and riding one stop to Universal City)"
     }
   },
   {
