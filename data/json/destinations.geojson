@@ -47,7 +47,7 @@
        "coordinates":  [ -118.256112,34.045921 ]
     },
     "properties": {
-    "attraction":"Chica�s Tacos",
+    "attraction":"Chica's Tacos",
     "attraction_type":"Restaurant (Food)",
     "address":"728 S Olive St, Los Angeles, CA 90014",
     "Description":"Trendy and colorful taco shop with freshly made aguas frescas and some of the best fish tacos in Los Angeles."
@@ -60,7 +60,7 @@
        "coordinates":  [ -118.254363,34.051329 ]
     },
     "properties": {
-    "attraction":"Grand Central Market�",
+    "attraction":"Grand Central Market",
     "attraction_type":"Restaurant (Food)",
     "address":"633 W 5th St, Los Angeles, CA 90071",
     "Description":"Large and vibrant market with a variety of food options; located close to Walt Disney Concert Hall, Museum of Contemporary Art, and Grand Park."
@@ -73,10 +73,10 @@
        "coordinates":  [ -118.250759,34.046872 ]
     },
     "properties": {
-    "attraction":"Blu Jam Caf�",
+    "attraction":"Blu Jam Cafe",
     "attraction_type":"Restaurant (Food)",
     "address":"541 S Spring St #110, Los Angeles, CA 90013",
-    "Description":"Popular brunch spot with AMAZING French toast. Arrive early if dining on a weekend � there�s always a wait (but it�s worth it!)."
+    "Description":"Popular brunch spot with AMAZING French toast. Arrive early if dining on a weekend! there's always a wait (but it's worth it!)."
     }
   },
   {
@@ -86,7 +86,7 @@
        "coordinates":  [ -118.36021,34.072253 ]
     },
     "properties": {
-    "attraction":"Farmer�s Market at The Grove�",
+    "attraction":"Farmer's Market at The Grove",
     "attraction_type":"Restaurant (Food)",
     "address":"6333 W 3rd St, Los Angeles, CA 90036",
     "Description":"Open air market with almost every type of food option, located at The Grove, an upscale outdoor shopping mall and popular LA landmark."
@@ -138,10 +138,10 @@
        "coordinates":  [ -118.346173,34.057272 ]
     },
     "properties": {
-    "attraction":"El Chato�",
+    "attraction":"El Chato",
     "attraction_type":"Restaurant (Food)",
     "address":"5300 W Olympic Blvd, Los Angeles, CA 90036",
-    "Description":"A favorite LA taco truck that�s only open after 9:00pm, but worth the trip for cheap and authentic street tacos."
+    "Description":"A favorite LA taco truck that's only open after 9:00pm, but worth the trip for cheap and authentic street tacos."
     }
   },
   {
@@ -164,10 +164,10 @@
        "coordinates":  [ -118.255494,34.150597 ]
     },
     "properties": {
-    "attraction":"Porto�s",
+    "attraction":"Porto's",
     "attraction_type":"Restaurant (Food)",
     "address":"315 N Brand Blvd, Glendale, CA 91203",
-    "Description":"Large Cuban caf� with salads, sandwiches, coffee, and baked goods."
+    "Description":"Large Cuban cafe with salads, sandwiches, coffee, and baked goods."
     }
   },
   {
@@ -177,7 +177,7 @@
        "coordinates":  [ -118.472854,33.998562 ]
     },
     "properties": {
-    "attraction":"Jeni�s Splendid Ice Creams",
+    "attraction":"Jeni's Splendid Ice Creams",
     "attraction_type":"Restaurant (Food)",
     "address":"540 Rose Ave, Venice, CA 90291",
     "Description":"Our favorite gourmet ice cream spot! Make sure you enjoy some samples before ordering!"
@@ -190,7 +190,7 @@
        "coordinates":  [ -118.287234,34.106991 ]
     },
     "properties": {
-    "attraction":"Jeni�s Splendid Ice Creams",
+    "attraction":"Jeni's Splendid Ice Creams",
     "attraction_type":"Restaurant (Food)",
     "address":"1954 Hillhurst Ave, Los Angeles, CA 90027",
     "Description":"Our favorite gourmet ice cream spot! Make sure you enjoy some samples before ordering!"
@@ -203,7 +203,7 @@
        "coordinates":  [ -118.645453,34.153038 ]
     },
     "properties": {
-    "attraction":"Jeni�s Splendid Ice Creams",
+    "attraction":"Jeni's Splendid Ice Creams",
     "attraction_type":"Restaurant (Food)",
     "address":"4751 Commons Way Suite A, Calabasas, CA 91302",
     "Description":"Our favorite gourmet ice cream spot! Make sure you enjoy some samples before ordering!"
@@ -216,7 +216,7 @@
        "coordinates":  [ -118.323986,34.073771 ]
     },
     "properties": {
-    "attraction":"Jeni�s Splendid Ice Creams",
+    "attraction":"Jeni's Splendid Ice Creams",
     "attraction_type":"Restaurant (Food)",
     "address":"123 N Larchmont Blvd, Los Angeles, CA 90004",
     "Description":"Our favorite gourmet ice cream spot! Make sure you enjoy some samples before ordering!"
@@ -232,7 +232,7 @@
     "attraction":"Republic of Pie",
     "attraction_type":"Restaurant (Food)",
     "address":"11118 W Magnolia Blvd, North Hollywood, CA 91601",
-    "Description":"Laid-back caf� in the North Hollywood Arts District with comfortable seating, delicious pie, coffee, and high-quality live music most nights of the week."
+    "Description":"Laid-back cafe in the North Hollywood Arts District with comfortable seating, delicious pie, coffee, and high-quality live music most nights of the week."
     }
   },
   {
@@ -242,7 +242,7 @@
        "coordinates":  [ -118.359024,34.072857 ]
     },
     "properties": {
-    "attraction":"Groundwork Coffee Co.�",
+    "attraction":"Groundwork Coffee Co.",
     "attraction_type":"Restaurant (Food)",
     "address":"189 The Grove Dr, Los Angeles, CA 90036",
     "Description":"Best coffee chain in LA! They also serve salads and sandwiches."
@@ -255,7 +255,7 @@
        "coordinates":  [ -118.329751,34.097193 ]
     },
     "properties": {
-    "attraction":"Groundwork Coffee Co.�",
+    "attraction":"Groundwork Coffee Co.",
     "attraction_type":"Restaurant (Food)",
     "address":"1501 N Cahuenga Blvd, Los Angeles, CA 90028",
     "Description":"Best coffee chain in LA! They also serve salads and sandwiches."
@@ -268,7 +268,7 @@
        "coordinates":  [ -118.471886,33.999906 ]
     },
     "properties": {
-    "attraction":"Groundwork Coffee Co.�",
+    "attraction":"Groundwork Coffee Co.",
     "attraction_type":"Restaurant (Food)",
     "address":"671 Rose Avenue, Venice, CA 90291",
     "Description":"Best coffee chain in LA! They also serve salads and sandwiches."
@@ -281,7 +281,7 @@
        "coordinates":  [ -118.380562,34.168238 ]
     },
     "properties": {
-    "attraction":"Groundwork Coffee Co.�",
+    "attraction":"Groundwork Coffee Co.",
     "attraction_type":"Restaurant (Food)",
     "address":"11275 Chandler Blvd, North Hollywood, CA 91601",
     "Description":"Best coffee chain in LA! They also serve salads and sandwiches."
@@ -294,10 +294,10 @@
        "coordinates":  [ -118.323968,34.100256 ]
     },
     "properties": {
-    "attraction":"Davey Wayne�s",
+    "attraction":"Davey Wayne's",
     "attraction_type":"Bar (Drinks)",
     "address":"1611 N El Centro Ave, Los Angeles, CA 90028",
-    "Description":"A 70�s-themed bar with outdoor seating, fun d�cor, and the occasional live entertainment. (Pro tip: Arrive before 9 pm to avoid the line)"
+    "Description":"A 70's-themed bar with outdoor seating, fun decor, and the occasional live entertainment. (Pro tip: Arrive before 9 pm to avoid the line)"
     }
   },
   {
@@ -307,7 +307,7 @@
        "coordinates":  [ -118.33253,34.10232 ]
     },
     "properties": {
-    "attraction":"No Vacancy�",
+    "attraction":"No Vacancy",
     "attraction_type":"Bar (Drinks)",
     "address":"1727 N Hudson Ave, Los Angeles, CA 90028",
     "Description":"A unique speak-easy type bar. No Googling before you go!"
@@ -333,7 +333,7 @@
        "coordinates":  [ -118.23526,34.044518 ]
     },
     "properties": {
-    "attraction":"Arts District Brewing Co.�",
+    "attraction":"Arts District Brewing Co.",
     "attraction_type":"Bar (Drinks)",
     "address":"828 Traction Ave, Los Angeles, CA 90013",
     "Description":"Fun brewery with lots of beers to choose from, plus darts and Skeeball."
@@ -398,7 +398,7 @@
        "coordinates":  [ -118.300318,34.118434 ]
     },
     "properties": {
-    "attraction":"Griffith Park/Observatory�",
+    "attraction":"Griffith Park/Observatory",
     "attraction_type":"Activity",
     "address":"2800 E Observatory Rd, Los Angeles, CA 90027",
     "Description":"Quintessential LA sight-seeing spot with free admission, planetarium shows, other science exhibits, and panoramic views of Los Angeles. Go during the week for less crowds and right before sunset for the best photo opportunities!�Closed on Mondays."
@@ -424,10 +424,10 @@
        "coordinates":  [ -118.474106,34.077965 ]
     },
     "properties": {
-    "attraction":"Getty Center�",
+    "attraction":"Getty Center",
     "attraction_type":"Activity",
     "address":"1200 Getty Center Dr, Los Angeles, CA 90049",
-    "Description":"Large collection of art, but worth the trip even if you�re not an art-lover because of the sprawling grounds/gardens, stunning architecture, and amazing views of LA. Free admission (besides parking). Closed on Mondays."
+    "Description":"Large collection of art, but worth the trip even if you're not an art-lover because of the sprawling grounds/gardens, stunning architecture, and amazing views of LA. Free admission (besides parking). Closed on Mondays."
     }
   },
   {
@@ -466,7 +466,7 @@
     "attraction":"Santa Monica Pier",
     "attraction_type":"Activity",
     "address":"200 Santa Monica Pier A, Santa Monica, CA 90401",
-    "Description":"Famous LA landmark � a must-see for first-time visitors to Los Angeles!"
+    "Description":"Famous LA landmark is a must-see for first-time visitors to Los Angeles!"
     }
   },
   {
@@ -479,7 +479,7 @@
     "attraction":"Universal Studios/City Walk",
     "attraction_type":"Activity",
     "address":"100 Universal City Plaza, Universal City, CA 91608",
-    "Description":"One of our favorite places in LA! The amusement park has rides and shows for the whole family � our favorites are Water World, the Studio Tour, The Mummy, and the Wizarding World of Harry Potter. Lots of shops and restaurants at City Walk if you�d rather save some money and not visit the park itself. (Pro tip: Save money on parking by parking at North Hollywood train station and riding one stop to Universal City)"
+    "Description":"One of our favorite places in LA! The amusement park has rides and shows for the whole family, our favorites are Water World, the Studio Tour, The Mummy, and the Wizarding World of Harry Potter. Lots of shops and restaurants at City Walk if you�d rather save some money and not visit the park itself. (Pro tip: Save money on parking by parking at North Hollywood train station and riding one stop to Universal City)"
     }
   },
   {
