@@ -23,7 +23,7 @@
     },
     "properties": {
     "icon": "bar",
-    "attraction":"No Vacancy�",
+    "attraction":"No Vacancy",
     "attraction_type":"Bar (Drinks)",
     "address":"1727 N Hudson Ave, Los Angeles, CA 90028",
     "Description":"A unique speak-easy type bar. No Googling before you go!"
@@ -50,7 +50,7 @@
        "coordinates":  [ -118.23526,34.044518 ]
     },
     "properties": {
-    "attraction":"Arts District Brewing Co.�",
+    "attraction":"Arts District Brewing Co.",
     "attraction_type":"Bar (Drinks)",
     "address":"828 Traction Ave, Los Angeles, CA 90013",
     "Description":"Fun brewery with lots of beers to choose from, plus darts and Skeeball."
