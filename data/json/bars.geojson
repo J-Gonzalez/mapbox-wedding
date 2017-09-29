@@ -12,7 +12,7 @@
     "attraction":"Davey Wayne's",
     "attraction_type":"Bar (Drinks)",
     "address":"1611 N El Centro Ave, Los Angeles, CA 90028",
-    "Description":"<center>A 70's-themed bar with outdoor seating, fun decor, and the occasional live entertainment.<br /> (Pro tip: Arrive before 9 pm to avoid the line)</center>"
+    "Description":"A 70's-themed bar with outdoor seating, fun decor, and the occasional live entertainment.<br /> (Pro tip: Arrive before 9 pm to avoid the line)"
     }
   },
   {
@@ -40,7 +40,7 @@
     "attraction":"Angel City Brewery",
     "attraction_type":"Bar (Drinks)",
     "address":"216 Alameda St, Los Angeles, CA 90012",
-    "Description":"Large brewery with great selection of beers, food trucks, games, and an open lay-out. Walk around the Arts District or to nearby Little Tokyo for great art and shopping."
+    "Description":"Large brewery with great selection of beers, food trucks, games, and an open lay-out.<br /> Walk around the Arts District or to nearby Little Tokyo for great art and shopping."
     }
   },
   {
@@ -81,7 +81,7 @@
     "attraction":"Rosenthal Wine Bar & Patio",
     "attraction_type":"Bar (Drinks)",
     "address":"18741 Coast Hwy, Malibu, CA 90265",
-    "Description":"Winery located right on Highway 1 (Pacific Coast Highway) with food trucks, live music, and cozy outdoor seating."
+    "Description":"Winery located right on Highway 1 (Pacific Coast Highway). <br />Great food trucks, live music, and cozy outdoor seating."
     }
   },
   {
@@ -95,7 +95,7 @@
     "attraction":"The Satellite",
     "attraction_type":"Bar (Drinks)",
     "address":"1717 Silver Lake Blvd, Los Angeles, CA 90026",
-    "Description":"Hipster hotspot for drinks and dancing on Saturday nights. Free before 10pm and only $5 after 10pm!"
+    "Description":"Hipster hotspot for drinks and dancing on Saturday nights. <br />Free before 10pm and only $5 after 10pm!"
     }
   }
 ]
