@@ -11,7 +11,7 @@
     "attraction":"Hollywood Sign Viewpoint at Lake Hollywood Park",
     "attraction_type":"Activity",
     "address":"3160 Canyon Lake Dr, Los Angeles, CA 90068",
-    "Description":"For those looking for the perfect photo with the famous Hollywood sign without having to hike to get it!"
+    "Description":"For those looking for the perfect photo <br>with the famous Hollywood sign without having to hike to get it!"
     }
   },
   {
@@ -24,7 +24,7 @@
     "attraction":"Griffith Park/Observatory",
     "attraction_type":"Activity",
     "address":"2800 E Observatory Rd, Los Angeles, CA 90027",
-    "Description":"Quintessential LA sight-seeing spot with free admission, planetarium shows, other science exhibits, and panoramic views of Los Angeles. Go during the week for less crowds and right before sunset for the best photo opportunities!�Closed on Mondays."
+    "Description":"Quintessential LA sight-seeing spot with free admission, <br>planetarium shows, other science exhibits, and panoramic views of Los Angeles. <br>Go during the week for less crowds and right before sunset for the best photo opportunities!�Closed on Mondays."
     }
   },
   {
@@ -37,7 +37,7 @@
     "attraction":"Getty Villa",
     "attraction_type":"Activity",
     "address":"17985 Coast Hwy, Pacific Palisades, CA 90272",
-    "Description":"Beautiful seaside villa that houses an extensive collection of Ancient Greek/Roman art. Free admission, but make sure to reserve a ticket ahead of time�here. Closed on Tuesdays."
+    "Description":"Beautiful seaside villa that houses an extensive collection of Ancient Greek/Roman art.<br> Free admission, but make sure to reserve a ticket ahead of time here.<br> Closed on Tuesdays."
     }
   },
   {
@@ -50,7 +50,7 @@
     "attraction":"Getty Center",
     "attraction_type":"Activity",
     "address":"1200 Getty Center Dr, Los Angeles, CA 90049",
-    "Description":"Large collection of art, but worth the trip even if you're not an art-lover because of the sprawling grounds/gardens, stunning architecture, and amazing views of LA. Free admission (besides parking). Closed on Mondays."
+    "Description":"Large collection of art, but worth the trip even if you're not an art-lover<br> because of the sprawling grounds/gardens, stunning architecture, and amazing views of LA. <br>Free admission (besides parking). Closed on Mondays."
     }
   },
   {
@@ -63,7 +63,7 @@
     "attraction":"LACMA/La Brea Tar Pits",
     "attraction_type":"Activity",
     "address":"5801 Wilshire Blvd, Los Angeles, CA 90036",
-    "Description":"Art museum with the famous lamppost installation outside and lots of food trucks across the street. Also located next to the La Brea Tar Pits � a kid-friendly science museum showcasing fossils found in the area where the grounds are free to walk, picnic, and more."
+    "Description":"Art museum with the famous lamppost installation outside and<br> lots of food trucks across the street. Also located next to the La Brea Tar Pits, <br> a kid-friendly science museum showcasing fossils found in the area <br>where the grounds are free to walk, picnic, and more."
     }
   },
   {
@@ -76,7 +76,7 @@
     "attraction":"Melrose Trading Post",
     "attraction_type":"Activity",
     "address":"7850 Melrose Ave, Los Angeles, CA 90046",
-    "Description":"Upscale flea market that happens every Sunday ($3 admission) full of local artists and artisans, food, and live music.�(Pro tip: Parking can be difficult,�so consider using Uber or Lyft to get there)"
+    "Description":"Upscale flea market that happens every Sunday ($3 admission) <br>full of local artists and artisans, food, and live music.<br>(Pro tip: Parking can be difficult, so consider using Uber or Lyft to get there)"
     }
   },
   {
@@ -102,7 +102,7 @@
     "attraction":"Universal Studios/City Walk",
     "attraction_type":"Activity",
     "address":"100 Universal City Plaza, Universal City, CA 91608",
-    "Description":"One of our favorite places in LA! The amusement park has rides and shows for the whole family! our favorites are Water World, the Studio Tour, The Mummy, and the Wizarding World of Harry Potter. Lots of shops and restaurants at City Walk if you�d rather save some money and not visit the park itself. (Pro tip: Save money on parking by parking at North Hollywood train station and riding one stop to Universal City)"
+    "Description":"One of our favorite places in LA! The amusement park has rides and shows for the whole family!<br> Our favorites are Water World, the Studio Tour, The Mummy, and the Wizarding World of Harry Potter.<br> Lots of shops and restaurants at City Walk if you'd rather save some money and not visit the park itself. <br>(Pro tip: Save money on parking by parking at North Hollywood train station and riding one stop to Universal City)"
     }
   },
   {
@@ -115,7 +115,7 @@
     "attraction":"Amoeba Music",
     "attraction_type":"Activity",
     "address":"6400 Sunset Blvd, Los Angeles, CA 90028",
-    "Description":"Must-stop for music lovers! Giant record store in the heart of Hollywood with vinyl, CDs, DVDs, and more."
+    "Description":"Must-stop for music lovers! Giant record store in the <br>heart of Hollywood with vinyl, CDs, DVDs, and more."
     }
   },
   {
@@ -128,7 +128,7 @@
     "attraction":"Runyon Canyon",
     "attraction_type":"Activity",
     "address":"2000 N Fuller Ave, Los Angeles, CA 90046",
-    "Description":"Popular hiking trails/dog park located right in the famous Hollywood Hills. Also popular for celebrity sightings!"
+    "Description":"Popular hiking trails/dog park located right in the<br> famous Hollywood Hills. Also popular for celebrity sightings!"
     }
   },
   {
@@ -141,7 +141,7 @@
     "attraction":"TCL Chinese Theater/Hollywood Walk of Fame",
     "attraction_type":"Activity",
     "address":"6925 Hollywood Blvd, Hollywood, CA 90028",
-    "Description":"Famous historical theater located in the heart of the Walk of Fame. See a movie here in IMAX, or just check out all the handprints left by Hollywood stars as you follow the Walk of Fame down Hollywood Blvd."
+    "Description":"Famous historical theater located in the heart of the Walk of Fame.<br> See a movie here in IMAX, or just check out all the handprints left by <br>Hollywood stars as you follow the Walk of Fame down Hollywood Blvd."
     }
   },
   {
@@ -154,7 +154,7 @@
     "attraction":"California Science Center",
     "attraction_type":"Activity",
     "address":"700 Exposition Park Dr, Los Angeles, CA 90037",
-    "Description":"A science and technology museum great for the whole family. Admission is free to all four of the museum's permanent exhibits.�"
+    "Description":"A science and technology museum great for the whole family.<br> Admission is free to all four of the museum's permanent exhibits."
     }
   }
 ]
